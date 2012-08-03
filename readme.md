@@ -1,6 +1,4 @@
 ## Project Template
----
-
 We needed a place to start our front-end work on projects and this is it. It takes our favourite elements of various framework, and pulls them all into one place. We make heavy use of the css framework less, it makes our development more streamlined and more enjoyable. We've also borrowed parts of html5 boilerplate where necessary, full credit goes to them, you [should look at their work](http://h5bp.com). A quick breakdown of what this base includes is below.
 
 ### HTML
