@@ -17,7 +17,7 @@ mixins
 
 // typekit styles just set sizing and add font
 @mixin typekit($weight: 600, $size: 24px, $line-height: 32px) {
-	font: $weight $size e('/') $line-height "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font: $weight #{$size}/#{$line-height} "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
 // simple vertical gradient
