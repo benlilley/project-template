@@ -1,19 +1,33 @@
 /* ----------------------------------------------------------
 project	--	Project Name
 author	--	Pitch (pitch.net.nz)
-note	--	This css makes use of sass http://sass-lang.com
+note		--	This css makes use of sass http://sass-lang.com
 ---------------------------------------------------------- */
 
 
 /* ----------------------------------------------------------
-load our helper and mixins files
+load our library files
 ---------------------------------------------------------- */
-@import "helper";
-@import "mixins";
+@import "library/variables";
+@import "library/colours";
+@import "library/gradients";
+@import "library/mixins";
+@import "library/reset";
+@import "library/media";
+@import "library/helpers";
 
 
 /* ----------------------------------------------------------
-base styles start now
+load our global elements
 ---------------------------------------------------------- */
-html { }
-body { }
+@import "components/typography";
+@import "components/navigation";
+@import "components/pagination";
+@import "components/buttons";
+@import "components/forms";
+
+
+/* ----------------------------------------------------------
+load our site views
+---------------------------------------------------------- */
+@import "views/homepage";

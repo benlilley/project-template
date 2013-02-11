@@ -1,0 +1,40 @@
+/* ----------------------------------------------------------
+helper classes and fixes (largely from h5bp.com)
+---------------------------------------------------------- */
+// help out stupid browsers
+header, nav, footer, section, article, figure, aside { display: block; }
+
+// prevent ios text size adjust on device orientation change, without disabling user zoom and fix some ie font rendering issues
+html { font-size:100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+// position subscript and superscript content without affecting line-height: h5bp.com/k
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+// change the text highlight colours
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
+// improve rendering in ie7 and remove gap between images and borders on containers
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+// consistent checkbox and radio button sizing/appearance across browsers
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
+
+// remove default scrollbar in ie
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+
+// only verticl resizing for textareas
+textarea { resize: vertical; }
+
+// non ugly horizontal rule
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+// clear fix
+.clear:before, .clear:after { content: " "; display: table; }
+.clear:after { clear: both; }
+.clear { *zoom: 1; }
+
+// image replacement class
+.ir { display: block; text-indent: 100%; white-space: nowrap; overflow: hidden; }
