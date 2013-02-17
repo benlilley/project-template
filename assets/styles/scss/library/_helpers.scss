@@ -30,11 +30,3 @@ textarea { resize: vertical; }
 
 // non ugly horizontal rule
 hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
-
-// clear fix
-.clear:before, .clear:after { content: " "; display: table; }
-.clear:after { clear: both; }
-.clear { *zoom: 1; }
-
-// image replacement class
-.ir { display: block; text-indent: 100%; white-space: nowrap; overflow: hidden; }

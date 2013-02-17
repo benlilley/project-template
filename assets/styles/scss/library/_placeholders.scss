@@ -1,0 +1,11 @@
+/* ----------------------------------------------------------
+sass placeholders (http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#placeholders)p
+---------------------------------------------------------- */
+
+// clear fix
+%clear:before, .clear:after { content: " "; display: table; }
+%clear:after { clear: both; }
+%clear { *zoom: 1; }
+
+// image replacement class
+%ir { display: block; text-indent: 100%; white-space: nowrap; overflow: hidden; }

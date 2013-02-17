@@ -8,11 +8,11 @@ note		--	This css makes use of sass http://sass-lang.com
 /* ----------------------------------------------------------
 load our library files
 ---------------------------------------------------------- */
+@import "library/compass";
 @import "library/variables";
 @import "library/colours";
-@import "library/gradients";
 @import "library/mixins";
-@import "library/reset";
+@import "library/placeholders";
 @import "library/media";
 @import "library/helpers";
 
