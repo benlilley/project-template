@@ -1,5 +1,5 @@
 /* ----------------------------------------------------------
-sass placeholders (http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#placeholders)p
+sass placeholders
 ---------------------------------------------------------- */
 
 // clear fix
@@ -8,4 +8,9 @@ sass placeholders (http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#pla
 %clear { *zoom: 1; }
 
 // image replacement class
-%ir { display: block; text-indent: 100%; white-space: nowrap; overflow: hidden; }
+%ir {
+	display: block;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}

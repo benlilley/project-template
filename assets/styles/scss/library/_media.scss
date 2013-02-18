@@ -1,6 +1,6 @@
 /* ----------------------------------------------------------
 media queries
-@include respond-to($tablet) { }
+@include respond-to(tablet) { }
 ---------------------------------------------------------- */
 $mobile: 240px;
 $tablet: 768px;
@@ -12,12 +12,12 @@ $widescreen: 1100px;
 		@media only screen and (min-width: $mobile) { @content; }
 	}
 	@else if $media == tablet {
-		@media only screen and (min-width: $tablet - 1) { @content; }
+		@media only screen and (min-width: $tablet) { @content; }
 	}
 	@else if $media == desktop {
-		@media only screen and (min-width: $desktop - 1) { @content; }
+		@media only screen and (min-width: $desktop) { @content; }
 	}
 	@else if $media == widescreen {
-		@media only screen and (min-width: $widescreen - 1) { @content; }
+		@media only screen and (min-width: $widescreen) { @content; }
 	}
 }
