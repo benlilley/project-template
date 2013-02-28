@@ -136,6 +136,12 @@ hr {
   margin: 1em 0;
   padding: 0; }
 
+/* line 35, ../scss/library/_helpers.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
 /* ----------------------------------------------------------
 sass mixins
 ---------------------------------------------------------- */
